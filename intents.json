@@ -1,0 +1,69 @@
+{"intents": [
+             {"tag": "greeting",
+              "patterns": ["Hello", "How are you?", "Hi there", "Hi", "Whats up", "hey jarvis", "hii", "hiii", "wakeup", "hey", "hlo","wakeup jarvis", "common buddy", "wakeup daddy home", "wake up daddy home"],
+              "responses": ["Howdy Partner!", "Hello", "How are you doing", "Greetings!", "How do you do"]
+             },
+             {"tag": "name",
+              "patterns": ["what's your name?", "what are you called?", "who are you?", "who are you", "what is your name", "who is you"],
+              "responses": ["Jarvis.", "Im Jarvis.Your personal assistant."]
+             },
+             {"tag": "goodbye",
+              "patterns": [ "bye", "g2g", "see ya", "adios", "cya"],
+              "responses": ["It was nice speaking to you", "See you later", "Speak soon!"]
+             },
+             {"tag": "jarvis_are_you_there",
+              "patterns": ["jarvis are you there", "jarvis you there", "you there jarvis", "are you there"],
+              "responses": ["At your service sir."]
+             },
+             {"tag": "creator_name",
+             "patterns": ["who created you", "who is the creator of you", "you were created by", "who made you", "who coded you", "who is your owner"],
+             "responses": ["I was created by Madhav", "My creator was inspired by IronMan"]
+            },
+
+
+
+
+
+            {"tag": "jv_home_complete_date",
+              "patterns": ["what day is today", "what is today","date", "what is the date", "say me the date", "what is the date jarvis", "home date", "current date"],
+              "responses": [""]
+            },
+            {"tag": "jv_only_date",
+              "patterns": ["what day is today", "what is today","date", "what is the date", "say me the date", "what is the date jarvis", "home date", "current date"],
+              "responses": [""]
+            },
+            {"tag": "jv_open_youtube",
+              "patterns": ["jarvis open youtube", "open yt", "jarvis open yt", "open youtube", "open youtube in browser jarvis", "in browser open youtube", "open yt in browser jarvis"],
+              "responses": [""]
+            },
+            {"tag": "jv_current_home_time",
+              "patterns": ["what's the time", "time", "what is the time", "current time", "present time", "what is the time jarvis","say me th time", "time please", "What Time Is It", "Could You Please Tell Me the Time", "Excuse Me, May I Know the Time", "Would You Tell Me What Time It Is now, Please", "Would You Mind If I Ask You the Time", "can you tell the time", "whats the home time", "home time", "what is the home time"],
+              "responses": [""]
+            },
+            {"tag": "jv_mac_app_opener",
+             "patterns": ["jarvis open whatsapp", "jarvis open spotify", "open whatsapp", "open spotify", "open after effects", "open chrome", "open brave", "open notion", "open vscode"],
+             "responses": [""]
+            },
+            {"tag": "jv_battery_meter",
+            "patterns": ["jarvis show battery", "battery", "are we running on battery", "are we on power supply", "battery percentage", "what is the battery percentage jarvis", "do we have charging", "can we run on battery", "are we using battery"],
+            "responses": [""]
+            },
+            {"tag": "jv_open_geeksforgeeks",
+           "patterns": ["jarvis open geeks for geeks", "jarvis open g4g", "jarvis open geeksforgeeks", "open geeksforgeeks", "open geeks for geeks", "open g4g"],
+           "responses": [""]
+            },
+            {"tag": "jv_open_stackoverflow",
+            "patterns": ["jarvid open stack overflow", "open stack overflow","open stack over flow", "jarvis open stack over flow", "jarvis open stackover flow", "open stackover flow", "open stackoverflow", "jarvis open stackoverflow"],
+            "responses": [""]
+            },
+            {"tag": "jv_open_github",
+            "patterns": ["jarvis open github", "jarvis open git hub", "open github", "open git hub", "jarvis go to github", "go to git hub", "jarvis go to git hub"],
+            "responses": [""]
+            },
+            {"tag": "jv_open_instagram",
+            "patterns": ["jarvis open instagram", "open insta", "open instagram", "jarvis open insta", "go to instagram", "jarvis go to instagram", "open insta gram"],
+            "responses": [""]
+            }
+
+
+]}

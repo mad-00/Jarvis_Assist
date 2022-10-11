@@ -1,0 +1,30 @@
+business_finance
+food_drink
+games
+health_fitness
+knowledge_education
+leon
+    good_bye
+    greeting
+    introduction
+    joke
+    meaning_of_life
+    partner_assistant
+    random_number
+    welcome
+movies_tv
+music_audio
+news
+    github_trends
+    product_hunt_trends
+productivity
+    todo_list
+shopping
+smart_home
+social_communication
+sport
+travel_transportation
+unknown
+utilities
+weather
+

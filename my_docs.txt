@@ -1,0 +1,12 @@
+
+
+creating a requirements.txt easily: https://www.delftstack.com/howto/python/python-create-requirements.txt/
+"pip3 freeze > requirements.txt"
+
+Wifi Name: /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I  | awk -F' SSID: '  '/ SSID: / {print $2}'
+mac ip: ifconfig en0 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+router ip: netstat -rn | grep default | grep en0 | grep -o '[0-9]*\.[0-9]*\.[0-9]*\.[0-9]'
+date: date +'%a %d. %b'
+cpu info: sysctl -n machdep.cpu.brand_string
+batt percentage: pmset -g batt | grep -o '[0-9]*%'
+
