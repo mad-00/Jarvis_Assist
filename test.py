@@ -1,6 +1,5 @@
 from Utilities import talk, wifi_available
 
-import requests
 def jv_tell_weather(command):
     if wifi_available() == True:
         try:
@@ -20,7 +19,15 @@ def jv_tell_weather(command):
             command = command.replace("temperature", "")
             command = command.replace("how", "")
             if "home" in command:
-                city = "hyderabad telangana"
+                import requests
+                import json
+                YOUR_ACCESS_KEY = "f107965ef0e33795cec1977dd4ae0ab2"
+                send_url = f"http://api.ipstack.com/check?access_key={YOUR_ACCESS_KEY}"
+                geo_req = requests.get(send_url)
+                geo_json = json.loads(geo_req.text)
+                latitude = geo_json['latitude']
+                longitude = geo_json['longitude']
+                city = geo_json['city']
             else:
                 city = command
 
